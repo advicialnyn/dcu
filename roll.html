@@ -144,7 +144,7 @@
 <body>
 
 <header>
-  <h1>DCU Registration List</h1>
+  <h1>DCU roll List</h1>
   <p>Live data synced from Google Sheets</p>
 </header>
 
@@ -162,7 +162,7 @@
     <thead>
       <tr>
         <th class="serial-col">S/N</th>
-        <th class="reg-col">DCU Registration</th>
+        <th class="reg-col">DCU roll</th>
         <th>Name</th>
       </tr>
     </thead>
@@ -177,7 +177,7 @@
 <script>
   // ==== CONFIGURATION ====
   const SHEET_ID = "1jvuX_lRXQgh4a0-2nQMsQKY92nZXi6lCe8UD_RnN0WY";
-  const SHEET_NAME = "arranged"; // pulls from the "arranged" tab specifically, not "raw"
+  const SHEET_NAME = "arranged_roll"; // pulls from the "arranged" tab specifically, not "raw"
   const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
   // ========================
 
